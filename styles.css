@@ -1,0 +1,181 @@
+body {
+    background-color: rgb(7, 7, 7);
+}
+@keyframes driveby {
+    0% {left: 150vw;}
+    100% {left: -100vw;}
+}
+@keyframes blink {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes rain {
+    0% {bottom: 150vh; left: 50vw;}
+    100% {bottom: -50vh; left: 0vw;}
+}
+@keyframes spotlight {
+    0% {rotate: 45deg;}
+    50% {rotate: -45deg;}
+    100% {rotate: 45deg;}
+}
+.moon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow:
+        0 0 60px 30px #fff,
+        0 0 100px 60px #f0f,
+        0 0 140px 90px #0ff;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+}
+.building1 {
+    height: 50vh;
+    width: 10vh;
+    position: absolute;
+    bottom: 0vh;
+    background-color: rgb(0, 180, 180);
+    animation: driveby 15s linear 0s infinite;
+}
+.building2 {
+    left: -50vw;
+    height: 50vh;
+    width: 10vh;
+    position: absolute;
+    bottom: 0vh;
+    background-color: rgb(0, 180, 180);
+    animation: driveby 15s linear 5s infinite;
+}
+.building3 {
+    left: -50vw;
+    height: 30vh;
+    width: 20vh;
+    position: absolute;
+    bottom: 0vh;
+    background-color: rgb(0, 180, 180);
+    animation: driveby 10s linear 10s infinite;
+}
+.building4 {
+    left: -50vw;
+    height: 55vh;
+    width: 20vh;
+    position: absolute;
+    bottom: 0vh;
+    background-color: rgb(0, 180, 180);
+    animation: driveby 9s linear 11s infinite;
+}
+.building5 {
+    height: 25vh;
+    width: 2vw;
+    position: absolute;
+    bottom: 5vh;
+    background-color: rgb(0, 180, 180);
+    filter: opacity(0.2);
+    animation: driveby 70s linear 0s infinite;
+}
+.song {
+    position: absolute;
+    bottom: 1vh;
+    opacity: 0.1;
+}
+.song:hover {
+    opacity: 1;
+}
+.underglow {
+    width: 100vw;
+    position: absolute;
+    top: 110vh;
+    box-shadow: 0 0 100px 100px magenta;
+}
+.plane {
+    position: absolute;
+    top: 40vh;
+    animation: driveby 40s linear 0s infinite reverse;
+}
+.light {
+    background-color: green;
+    box-shadow: green 0 0 5px;
+    position: inherit;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    animation: blink 1s steps(1) 0s infinite;
+    z-index: -2;
+}
+.plane2 {
+    position: absolute;
+    top: 45vh;
+    animation: driveby 55s linear 5s infinite;
+}
+.light2 {
+    background-color: red;
+    box-shadow: red 0 0 5px;
+    position: inherit;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    animation: blink 1s steps(1) 5s infinite;
+    z-index: -1;
+}
+.cloud {
+    background-color: black;
+    box-shadow: black 0 0 200px 200px;
+    width: 1px;
+    height: 1px;
+    animation: driveby 64s linear 0s infinite;
+    position: absolute;
+    top: 10vh;
+    left: 0vh;
+    
+}
+.lights {
+    position: absolute;
+    filter: blur(5px);
+    z-index: -5;
+    bottom: 10vh;
+    left: 50vw;
+    animation: driveby 54s linear 0s infinite;
+}
+.spotlight {
+    background: linear-gradient(transparent, whitesmoke);
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    width: 10vw;
+    height: 75vh;
+    transform-origin: 50% 100%;
+    animation: spotlight 15s ease 0s infinite;
+}
+.rain {
+    transform: rotate(30deg);
+    background-color: white;
+    position: absolute;
+    opacity: 0.25;
+    width: 1px;
+    height: 50px;
+    animation: rain 0.5s linear 0s infinite;
+    box-shadow: 
+        10vw 10vh white,
+        90vw 90vh white,
+        85vw 70vh white,
+        70vw 15vh white,
+        50vw 50vh white,
+        50vw 70vh white,
+        25vw 5vh white,
+        55vw -25vh white,
+        5vw -40vh white,
+        35vw -20vh white,
+        95vw -10vh white,
+        25vw -35vh white,
+        10vw -25vh white,
+        55vw 95vh white,
+        41vw 5vh white,
+        14vw 81vh white,
+        -34vw 23vh white,
+        -50vw 50vh white,
+        -30vw 11vh white,
+        -13vw 21vh white,
+        -5vw -23vh white,
+        32vw -70vh white;
+}
