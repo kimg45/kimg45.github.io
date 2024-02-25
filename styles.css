@@ -1,7 +1,7 @@
 html, body {
     background-color: rgb(7, 7, 7);
     overflow: hidden;
-    position: fixed;
+    touch-action: none;
 }
 @keyframes driveby {
     0% {left: 150vw;}
