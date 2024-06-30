@@ -21,6 +21,187 @@ html, body {
     50% {rotate: -45deg;}
     100% {rotate: 45deg;}
 }
+@keyframes tilt {
+    0% {rotate: 15deg;}
+    50% {rotate: -15deg;}
+    100% {rotate: 15deg;}
+}
+@keyframes text {
+    0% {text-shadow:
+        -15px -15px rgb(0, 255, 255),
+        -14px -14px rgb(10, 240, 255),
+        -13px -13px rgb(20, 230, 255),
+        -12px -12px rgb(30, 220, 255),
+        -11px -11px rgb(40, 210, 255),
+        -10px -10px rgb(50, 200, 255),
+        -9px -9px rgb(60, 190, 255),
+        -8px -8px rgb(70, 180, 255),
+        -7px -7px rgb(80, 170, 255),
+        -6px -6px rgb(90, 160, 255),
+        -5px -5px rgb(100, 150, 255),
+        -4px -4px rgb(110, 140, 255),
+        -3px -3px rgb(120, 130, 255),
+        -2px -2px rgb(130, 120, 255),
+        -1px -1px rgb(140, 110, 255),
+        0px 0px rgb(150, 100, 255),
+        1px 1px rgb(160, 90, 255),
+        2px 2px rgb(170, 80, 255),
+        3px 3px rgb(180, 70, 255),
+        4px 4px rgb(190, 60, 255),
+        5px 5px rgb(200, 50, 255),
+        6px 6px rgb(210, 40, 255),
+        7px 7px rgb(220, 30, 255),
+        8px 8px rgb(230, 20, 255),
+        9px 9px rgb(240, 10, 255),
+        10px 10px rgb(245, 5, 255),
+        11px 11px rgb(250, 0, 255),
+        12px 12px rgb(255, 0, 255),
+        13px 13px rgb(255, 0, 255),
+        14px 14px rgb(255, 0, 255),
+        15px 15px rgb(255, 0, 255);}
+    25% {text-shadow:
+        -15px 15px rgb(0, 255, 255),
+        -14px 14px rgb(10, 240, 255),
+        -13px 13px rgb(20, 230, 255),
+        -12px 12px rgb(30, 220, 255),
+        -11px 11px rgb(40, 210, 255),
+        -10px 10px rgb(50, 200, 255),
+        -9px 9px rgb(60, 190, 255),
+        -8px 8px rgb(70, 180, 255),
+        -7px 7px rgb(80, 170, 255),
+        -6px 6px rgb(90, 160, 255),
+        -5px 5px rgb(100, 150, 255),
+        -4px 4px rgb(110, 140, 255),
+        -3px 3px rgb(120, 130, 255),
+        -2px 2px rgb(130, 120, 255),
+        -1px 1px rgb(140, 110, 255),
+        0px 0px rgb(150, 100, 255),
+        1px -1px rgb(160, 90, 255),
+        2px -2px rgb(170, 80, 255),
+        3px -3px rgb(180, 70, 255),
+        4px -4px rgb(190, 60, 255),
+        5px -5px rgb(200, 50, 255),
+        6px -6px rgb(210, 40, 255),
+        7px -7px rgb(220, 30, 255),
+        8px -8px rgb(230, 20, 255),
+        9px -9px rgb(240, 10, 255),
+        10px -10px rgb(245, 5, 255),
+        11px -11px rgb(250, 0, 255),
+        12px -12px rgb(255, 0, 255),
+        13px -13px rgb(255, 0, 255),
+        14px -14px rgb(255, 0, 255),
+        15px -15px rgb(255, 0, 255);}
+    50% {text-shadow:
+        15px 15px rgb(0, 255, 255),
+        14px 14px rgb(10, 240, 255),
+        13px 13px rgb(20, 230, 255),
+        12px 12px rgb(30, 220, 255),
+        11px 11px rgb(40, 210, 255),
+        10px 10px rgb(50, 200, 255),
+        9px 9px rgb(60, 190, 255),
+        8px 8px rgb(70, 180, 255),
+        7px 7px rgb(80, 170, 255),
+        6px 6px rgb(90, 160, 255),
+        5px 5px rgb(100, 150, 255),
+        4px 4px rgb(110, 140, 255),
+        3px 3px rgb(120, 130, 255),
+        2px 2px rgb(130, 120, 255),
+        1px 1px rgb(140, 110, 255),
+        0px 0px rgb(150, 100, 255),
+        -1px -1px rgb(160, 90, 255),
+        -2px -2px rgb(170, 80, 255),
+        -3px -3px rgb(180, 70, 255),
+        -4px -4px rgb(190, 60, 255),
+        -5px -5px rgb(200, 50, 255),
+        -6px -6px rgb(210, 40, 255),
+        -7px -7px rgb(220, 30, 255),
+        -8px -8px rgb(230, 20, 255),
+        -9px -9px rgb(240, 10, 255),
+        -10px -10px rgb(245, 5, 255),
+        -11px -11px rgb(250, 0, 255),
+        -12px -12px rgb(255, 0, 255),
+        -13px -13px rgb(255, 0, 255),
+        -14px -14px rgb(255, 0, 255),
+        -15px -15px rgb(255, 0, 255);}
+    75% {text-shadow:
+        15px -15px rgb(0, 255, 255),
+        14px -14px rgb(10, 240, 255),
+        13px -13px rgb(20, 230, 255),
+        12px -12px rgb(30, 220, 255),
+        11px -11px rgb(40, 210, 255),
+        10px -10px rgb(50, 200, 255),
+        9px -9px rgb(60, 190, 255),
+        8px -8px rgb(70, 180, 255),
+        7px -7px rgb(80, 170, 255),
+        6px -6px rgb(90, 160, 255),
+        5px -5px rgb(100, 150, 255),
+        4px -4px rgb(110, 140, 255),
+        3px -3px rgb(120, 130, 255),
+        2px -2px rgb(130, 120, 255),
+        1px -1px rgb(140, 110, 255),
+        0px 0px rgb(150, 100, 255),
+        -1px 1px rgb(160, 90, 255),
+        -2px 2px rgb(170, 80, 255),
+        -3px 3px rgb(180, 70, 255),
+        -4px 4px rgb(190, 60, 255),
+        -5px 5px rgb(200, 50, 255),
+        -6px 6px rgb(210, 40, 255),
+        -7px 7px rgb(220, 30, 255),
+        -8px 8px rgb(230, 20, 255),
+        -9px 9px rgb(240, 10, 255),
+        -10px 10px rgb(245, 5, 255),
+        -11px 11px rgb(250, 0, 255),
+        -12px 12px rgb(255, 0, 255),
+        -13px 13px rgb(255, 0, 255),
+        -14px 14px rgb(255, 0, 255),
+        -15px 15px rgb(255, 0, 255);}
+    100% {text-shadow:
+        -15px -15px rgb(0, 255, 255),
+        -14px -14px rgb(10, 240, 255),
+        -13px -13px rgb(20, 230, 255),
+        -12px -12px rgb(30, 220, 255),
+        -11px -11px rgb(40, 210, 255),
+        -10px -10px rgb(50, 200, 255),
+        -9px -9px rgb(60, 190, 255),
+        -8px -8px rgb(70, 180, 255),
+        -7px -7px rgb(80, 170, 255),
+        -6px -6px rgb(90, 160, 255),
+        -5px -5px rgb(100, 150, 255),
+        -4px -4px rgb(110, 140, 255),
+        -3px -3px rgb(120, 130, 255),
+        -2px -2px rgb(130, 120, 255),
+        -1px -1px rgb(140, 110, 255),
+        0px 0px rgb(150, 100, 255),
+        1px 1px rgb(160, 90, 255),
+        2px 2px rgb(170, 80, 255),
+        3px 3px rgb(180, 70, 255),
+        4px 4px rgb(190, 60, 255),
+        5px 5px rgb(200, 50, 255),
+        6px 6px rgb(210, 40, 255),
+        7px 7px rgb(220, 30, 255),
+        8px 8px rgb(230, 20, 255),
+        9px 9px rgb(240, 10, 255),
+        10px 10px rgb(245, 5, 255),
+        11px 11px rgb(250, 0, 255),
+        12px 12px rgb(255, 0, 255),
+        13px 13px rgb(255, 0, 255),
+        14px 14px rgb(255, 0, 255),
+        15px 15px rgb(255, 0, 255);}
+}
+h1 {
+    text-align: center;
+    font-size: 3vmax;
+    color: transparent;
+    z-index: 100;
+    perspective: 200px;
+    animation: text 10s linear infinite, tilt 10s ease-in-out infinite;
+    text-shadow: 
+        1px 1px rgb(50, 200, 255),
+        2px 2px rgb(100, 150, 255),
+        3px 3px rgb(150, 100, 255),
+        4px 4px rgb(200, 50, 255),
+        5px 5px rgb(255, 0, 255);
+}
 .moon {
     height: 50px;
     width: 50px;
@@ -78,14 +259,6 @@ html, body {
     filter: opacity(0.2);
     animation: driveby 70s linear 0s infinite;
 }
-.song {
-    position: absolute;
-    bottom: 1vh;
-    opacity: 0.1;
-}
-.song:hover {
-    opacity: 1;
-}
 .underglow {
     width: 100vw;
     position: absolute;
@@ -121,17 +294,6 @@ html, body {
     height: 1px;
     animation: blink 1s steps(1) 5s infinite;
     z-index: -1;
-}
-.cloud {
-    background-color: black;
-    box-shadow: black 0 0 200px 200px;
-    width: 1px;
-    height: 1px;
-    animation: driveby 64s linear 0s infinite;
-    position: absolute;
-    top: 10vh;
-    left: 0vh;
-    
 }
 .lights {
     position: absolute;
@@ -179,5 +341,6 @@ html, body {
         -30vw 11vh white,
         -13vw 21vh white,
         -5vw -23vh white,
-        32vw -70vh white;
+        32vw -70vh white,
+        4vw 36vh white;
 }
