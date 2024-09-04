@@ -28,7 +28,7 @@ html, body {
 }
 @keyframes text {
     0% {text-shadow:
-        -15px -15px rgb(0, 255, 255),
+        -15px -15px 20px rgb(0, 255, 255),
         -14px -14px rgb(10, 240, 255),
         -13px -13px rgb(20, 230, 255),
         -12px -12px rgb(30, 220, 255),
@@ -43,7 +43,7 @@ html, body {
         -3px -3px rgb(120, 130, 255),
         -2px -2px rgb(130, 120, 255),
         -1px -1px rgb(140, 110, 255),
-        0px 0px rgb(150, 100, 255),
+        0px 0px 20px rgb(150, 100, 255),
         1px 1px rgb(160, 90, 255),
         2px 2px rgb(170, 80, 255),
         3px 3px rgb(180, 70, 255),
@@ -58,9 +58,9 @@ html, body {
         12px 12px rgb(255, 0, 255),
         13px 13px rgb(255, 0, 255),
         14px 14px rgb(255, 0, 255),
-        15px 15px rgb(255, 0, 255);}
+        15px 15px 20px rgb(255, 0, 255);}
     25% {text-shadow:
-        -15px 15px rgb(0, 255, 255),
+        -15px 15px 20px rgb(0, 255, 255),
         -14px 14px rgb(10, 240, 255),
         -13px 13px rgb(20, 230, 255),
         -12px 12px rgb(30, 220, 255),
@@ -75,7 +75,7 @@ html, body {
         -3px 3px rgb(120, 130, 255),
         -2px 2px rgb(130, 120, 255),
         -1px 1px rgb(140, 110, 255),
-        0px 0px rgb(150, 100, 255),
+        0px 0px 20px rgb(150, 100, 255),
         1px -1px rgb(160, 90, 255),
         2px -2px rgb(170, 80, 255),
         3px -3px rgb(180, 70, 255),
@@ -90,9 +90,9 @@ html, body {
         12px -12px rgb(255, 0, 255),
         13px -13px rgb(255, 0, 255),
         14px -14px rgb(255, 0, 255),
-        15px -15px rgb(255, 0, 255);}
+        15px -15px 20px rgb(255, 0, 255);}
     50% {text-shadow:
-        15px 15px rgb(0, 255, 255),
+        15px 15px 20px rgb(0, 255, 255),
         14px 14px rgb(10, 240, 255),
         13px 13px rgb(20, 230, 255),
         12px 12px rgb(30, 220, 255),
@@ -107,7 +107,7 @@ html, body {
         3px 3px rgb(120, 130, 255),
         2px 2px rgb(130, 120, 255),
         1px 1px rgb(140, 110, 255),
-        0px 0px rgb(150, 100, 255),
+        0px 0px 20px rgb(150, 100, 255),
         -1px -1px rgb(160, 90, 255),
         -2px -2px rgb(170, 80, 255),
         -3px -3px rgb(180, 70, 255),
@@ -122,9 +122,9 @@ html, body {
         -12px -12px rgb(255, 0, 255),
         -13px -13px rgb(255, 0, 255),
         -14px -14px rgb(255, 0, 255),
-        -15px -15px rgb(255, 0, 255);}
+        -15px -15px 20px rgb(255, 0, 255);}
     75% {text-shadow:
-        15px -15px rgb(0, 255, 255),
+        15px -15px 20px rgb(0, 255, 255),
         14px -14px rgb(10, 240, 255),
         13px -13px rgb(20, 230, 255),
         12px -12px rgb(30, 220, 255),
@@ -139,7 +139,7 @@ html, body {
         3px -3px rgb(120, 130, 255),
         2px -2px rgb(130, 120, 255),
         1px -1px rgb(140, 110, 255),
-        0px 0px rgb(150, 100, 255),
+        0px 0px 20px rgb(150, 100, 255),
         -1px 1px rgb(160, 90, 255),
         -2px 2px rgb(170, 80, 255),
         -3px 3px rgb(180, 70, 255),
@@ -154,9 +154,9 @@ html, body {
         -12px 12px rgb(255, 0, 255),
         -13px 13px rgb(255, 0, 255),
         -14px 14px rgb(255, 0, 255),
-        -15px 15px rgb(255, 0, 255);}
+        -15px 15px 20px rgb(255, 0, 255);}
     100% {text-shadow:
-        -15px -15px rgb(0, 255, 255),
+        -15px -15px 20px rgb(0, 255, 255),
         -14px -14px rgb(10, 240, 255),
         -13px -13px rgb(20, 230, 255),
         -12px -12px rgb(30, 220, 255),
@@ -171,7 +171,7 @@ html, body {
         -3px -3px rgb(120, 130, 255),
         -2px -2px rgb(130, 120, 255),
         -1px -1px rgb(140, 110, 255),
-        0px 0px rgb(150, 100, 255),
+        0px 0px 20px rgb(150, 100, 255),
         1px 1px rgb(160, 90, 255),
         2px 2px rgb(170, 80, 255),
         3px 3px rgb(180, 70, 255),
@@ -186,21 +186,36 @@ html, body {
         12px 12px rgb(255, 0, 255),
         13px 13px rgb(255, 0, 255),
         14px 14px rgb(255, 0, 255),
-        15px 15px rgb(255, 0, 255);}
+        15px 15px 20px rgb(255, 0, 255);}
+}
+@keyframes articles {
+    0% {color: #0ff;
+        text-shadow: 
+            2px 2px 5px #fff,
+            2px 2px #fff,
+            0px 0px 5px #0ff;}
+    50% {color: #fff;
+         text-shadow: 
+            2px 2px 5px #0ff,
+            2px 2px #0ff,
+            0px 0px 5px #fff;}
+    100% {color: #0ff;
+         text-shadow: 
+            2px 2px 5px #fff,
+            2px 2px #fff,
+            0px 0px 5px #0ff;}
 }
 h1 {
     text-align: center;
-    font-size: 3vmax;
+    font-size: 4vmax;
     color: transparent;
-    z-index: 100;
     perspective: 200px;
     animation: text 10s linear infinite, tilt 10s ease-in-out infinite;
-    text-shadow: 
-        1px 1px rgb(50, 200, 255),
-        2px 2px rgb(100, 150, 255),
-        3px 3px rgb(150, 100, 255),
-        4px 4px rgb(200, 50, 255),
-        5px 5px rgb(255, 0, 255);
+}
+h2 {
+    text-align: center;
+    color: #0ff;
+    animation: articles 5s ease-in-out infinite;
 }
 .moon {
     height: 50px;
@@ -298,7 +313,6 @@ h1 {
 .lights {
     position: absolute;
     filter: blur(5px);
-    z-index: -5;
     bottom: 10vh;
     left: 50vw;
     animation: driveby 54s linear 0s infinite;
@@ -343,4 +357,32 @@ h1 {
         -5vw -23vh white,
         32vw -70vh white,
         4vw 36vh white;
+}
+
+p {
+    color: #fff;
+    text-shadow: 0px 0px 2px #fff;
+}
+
+article {
+    background-color: rgba(22, 22, 22, 0.5);
+    backdrop-filter: blur(100px);
+    padding: 10px;
+    margin: 25px;
+    border-radius: 25px;
+}
+@media screen and (min-width: 1000px) {
+    article {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+a:link {
+    color: #0ff;
+    text-shadow: 0px 0px 2px #0ff;
+}
+a:visited {
+    color: #f0f;
+    text-shadow: 0px 0px 2px #f0f;
 }
