@@ -290,6 +290,7 @@ h2 {
     position: absolute;
     top: 40vh;
     animation: driveby 40s linear 0s infinite reverse;
+    z-index: -1;
 }
 .light {
     background-color: green;
@@ -299,11 +300,13 @@ h2 {
     width: 1px;
     height: 1px;
     animation: blink 1s steps(1) 0s infinite;
+    z-index: -1;
 }
 .plane2 {
     position: absolute;
     top: 45vh;
     animation: driveby 55s linear 5s infinite;
+    z-index: -1;
 }
 .light2 {
     background-color: red;
@@ -313,6 +316,7 @@ h2 {
     width: 1px;
     height: 1px;
     animation: blink 1s steps(1) 5s infinite;
+    z-index: -1;
 }
 .lights {
     position: absolute;
@@ -320,6 +324,7 @@ h2 {
     bottom: 10vh;
     left: 50vw;
     animation: driveby 54s linear 0s infinite;
+    z-index: -1;
 }
 .spotlight {
     background: linear-gradient(transparent, whitesmoke);
