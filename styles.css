@@ -1,7 +1,6 @@
-html {
+body {
     background-color: rgb(7, 7, 7);
     overflow: hidden;
-    touch-action: none;
 }
 @keyframes driveby {
     0% {left: 150vw;}
@@ -376,7 +375,6 @@ p {
     color: #fff;
     text-shadow: 0px 0px 2px #fff;
 }
-
 article {
     background-color: rgba(22, 22, 22, 0.5);
     backdrop-filter: blur(15px);
@@ -384,6 +382,12 @@ article {
     margin: 25px;
     border-radius: 25px;
     z-index: 2;
+    overflow-y: auto;
+    max-height: 80vh;
+    scrollbar-color: #363636 transparent;
+}
+::-webkit-scrollbar {
+    border-radius: 25px;
 }
 @media screen and (min-width: 1000px) {
     article {
