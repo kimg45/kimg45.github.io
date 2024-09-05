@@ -1,6 +1,6 @@
 body {
     background-color: rgb(7, 7, 7);
-    overflow: hidden;
+    overflow: clip;
 }
 @keyframes driveby {
     0% {left: 150vw;}
