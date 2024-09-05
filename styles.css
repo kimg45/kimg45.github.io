@@ -1,6 +1,8 @@
+:root {
+    overflow: hidden;
+}
 body {
     background-color: rgb(7, 7, 7);
-    overflow: hidden;
 }
 @keyframes driveby {
     0% {left: 150vw;}
@@ -205,7 +207,7 @@ body {
             0px 0px 5px #0ff;}
 }
 ::selection {
-    background-color: rgb(255, 124, 255);
+    background-color: rgb(117, 0, 168);
 }
 h1 {
     text-align: center;
@@ -403,4 +405,9 @@ a:link {
 a:visited {
     color: #f0f;
     text-shadow: 0px 0px 2px #f0f;
+}
+nav {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
