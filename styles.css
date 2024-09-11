@@ -431,3 +431,10 @@ ul {
                 0px 0px 10px #0ff,
                 0px 0px 5px #0ff;
 }
+canvas {
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    position: absolute;
+    z-index: -1;
+}
